@@ -172,6 +172,26 @@ main{
     text-decoration: none;
 }
 
+.team-container{
+    position: relative;
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    
+   
+}
+
+.team-container > h3{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+
+.team-container-enterprise{
+    order: 1px solid lightgray;
+    padding: 30px 50px;
+}
+
+.team-container-info
 
 /*width*/
 
