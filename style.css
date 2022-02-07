@@ -120,6 +120,40 @@ main{
     position: relative;
 }
 
+.price{
+    font-weight: bold;
+}
+
+.type{
+    color: grey;
+}
+
+.plan-container h2{
+    font-size: 45px;
+    padding: 50px 0px;
+}
+
+.plan-container h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.plan-container h3{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.plan-container h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 0 20px 0;
+}
+
+.plan-container p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+
 .plan-container > div{
     margin-right: 50px;
     width: calc(100% / 3 - 50px);
@@ -132,6 +166,10 @@ main{
 }
 .plan-container ul{
     list-style: none;
+}
+
+.plan-container a{
+    text-decoration: none;
 }
 
 
