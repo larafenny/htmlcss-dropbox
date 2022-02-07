@@ -120,8 +120,18 @@ main{
     position: relative;
 }
 
-.plan-container div{
-    border: 1px solid black;
+.plan-container > div{
+    margin-right: 50px;
+    width: calc(100% / 3 - 50px);
+}
+
+.plan-container div > div{
+    padding: 30px 50px;
+    border: 1px solid lightgray;
+
+}
+.plan-container ul{
+    list-style: none;
 }
 
 
