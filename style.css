@@ -128,7 +128,7 @@ main{
     color: grey;
 }
 
-.plan-container h2{
+h2{
     font-size: 45px;
     padding: 50px 0px;
 }
@@ -206,9 +206,55 @@ h3{
 .partner-info p{
     font-size: 18px;
     
+}
 
+.tool-section img{
+    width: 100%;
+
+}
+
+.tool-section p{
+    font-size: 18px;
     
 }
+
+.col-cen{
+    margin: 0 100px;  
+}
+
+.raw{
+    margin: 100px 0;
+}
+
+.left-grid{
+    background-color: red;
+    height: 100px;
+}
+
+.central-grid{
+    background-color: hsl(0deg 0% 96%);
+    height: 100px;
+}
+
+.right-grid{
+    background-color: green;
+    height: 100px;
+}
+
+
+.col-left{
+    height: 200px;
+    background-color: hsl(113deg 39% 72%);
+}
+
+.col-right{
+    background-color: hsl(336deg 85% 21%);
+}
+
+.grid img{
+    width: 100%;
+}
+
 
 /*width*/
 
@@ -219,8 +265,16 @@ h3{
     width: 20%;
 }
 
+.w-25{
+    width: 25%;
+}
+
 .w-30{
     width: 30%;
+}
+
+.w-33{
+    width: calc(100% / 3 - 100px);
 }
 
 .w-40{
