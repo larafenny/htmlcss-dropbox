@@ -138,7 +138,7 @@ main{
     text-align: center;
 }
 
-.plan-container h3{
+h3{
     font-size: 28px;
     padding-bottom: 20px;
 }
@@ -191,7 +191,24 @@ main{
     padding: 30px 50px;
 }
 
-.team-container-info
+.partner-section{
+    padding: 100px 0;
+}
+
+.partner-section img{
+    width: 100%;
+}
+
+.partner-info{
+    padding: 50px;
+}
+
+.partner-info p{
+    font-size: 18px;
+    
+
+    
+}
 
 /*width*/
 
