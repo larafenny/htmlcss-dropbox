@@ -218,12 +218,12 @@ h3{
     
 }
 
-.col-cen{
-    margin: 0 100px;  
+.grid{
+    height: 400px;
 }
 
-.raw{
-    margin: 100px 0;
+.col-cen{
+    margin: 0 100px;  
 }
 
 .left-grid{
@@ -255,6 +255,18 @@ h3{
     width: 100%;
 }
 
+.trial{    
+    position: relative;
+    background-color: hsl(207deg 52% 81%);
+    height: 400px;
+}
+
+.trial-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*width*/
 
